@@ -50,4 +50,4 @@ L'application s'adresse aux adultes et ne collecte sciemment aucune donnée d'en
 
 ## Contact
 
-Tepan Games – arcuce@hotmail.com
+Tepan Games – tepangames@outlook.com
