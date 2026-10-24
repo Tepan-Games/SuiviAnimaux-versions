@@ -32,11 +32,27 @@ ou Google Drive (Google), pour les partager entre vos appareils :
 Sur demande, l'application télécharge la base publique des médicaments vétérinaires de l'Anses (ANMV).
 Ce téléchargement n'envoie aucune information personnelle.
 
+### Recherche « À proximité » (facultative)
+
+Pour trouver les vétérinaires, refuges et centres de soins autour de vous, l'application envoie **uniquement
+l'adresse que vous saisissez, ou votre position si vous appuyez sur « Ma position »**, au moment de la recherche,
+à des services publics et gratuits :
+
+- la Géoplateforme de l'IGN (Base Adresse Nationale) pour trouver l'adresse ;
+- l'API Recherche d'entreprises de l'État (registre INSEE) pour les cabinets vétérinaires ;
+- OpenStreetMap (service Overpass) pour les vétérinaires, refuges et centres de soins.
+
+Aucun identifiant, nom ou donnée de vos animaux n'est envoyé. La position n'est ni enregistrée ni transmise au
+développeur ; seule la dernière adresse cherchée est gardée sur l'appareil pour la recherche suivante. Ces services
+appliquent leurs propres règles de confidentialité.
+
 ## Autorisations Android
 
 - **Notifications** : rappels des prises de traitement.
 - **Appareil photo** : uniquement pour prendre les photos que vous ajoutez à la fiche d'un animal.
-- **Internet** : synchronisation et téléchargement de la base des médicaments.
+- **Localisation (approximative ou précise, au choix)** : uniquement quand vous appuyez sur « Ma position » dans la
+  recherche « À proximité », jamais en arrière-plan. Vous pouvez la refuser et saisir une adresse à la place.
+- **Internet** : synchronisation, téléchargement de la base des médicaments et recherche « À proximité ».
 
 ## Suppression des données
 
