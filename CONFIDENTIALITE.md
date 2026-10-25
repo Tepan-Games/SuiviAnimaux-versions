@@ -1,6 +1,6 @@
 # Règles de confidentialité – Suivi des animaux
 
-*Dernière mise à jour : 24 octobre 2026*
+*Dernière mise à jour : 25 octobre 2026*
 
 Ces règles s'appliquent à l'application Android « Suivi des animaux » (`com.tepangames.suivianimaux`)
 et au logiciel Windows du même nom, édités par Tepan Games.
@@ -41,6 +41,10 @@ l'adresse que vous saisissez, ou votre position si vous appuyez sur « Ma positi
 - la Géoplateforme de l'IGN (Base Adresse Nationale) pour trouver l'adresse ;
 - l'API Recherche d'entreprises de l'État (registre INSEE) pour les cabinets vétérinaires ;
 - OpenStreetMap (service Overpass) pour les vétérinaires, refuges et centres de soins.
+
+Pour afficher la carte des résultats, l'application charge le plan IGN de la zone (Géoplateforme) et la bibliothèque
+d'affichage Leaflet (unpkg.com). Ces services reçoivent les demandes de la carte, comme pour toute page web, mais aucune
+information sur vos animaux ni sur vous.
 
 Aucun identifiant, nom ou donnée de vos animaux n'est envoyé. La position n'est ni enregistrée ni transmise au
 développeur ; seule la dernière adresse cherchée est gardée sur l'appareil pour la recherche suivante. Ces services
